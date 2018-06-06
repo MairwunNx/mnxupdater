@@ -1,8 +1,6 @@
 # MairwunNxUpdater
 A simple and fast updater for some projects, with using the C# console.
 
-![Alt text](images/Screenshot.png "Console screnshot of updater.")
-
 # How Use Or Start Updater.
  
  * Download the source and include to the project. (compiling source requires VS2017+).
