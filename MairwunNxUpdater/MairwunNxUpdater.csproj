@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Images\icons8_Wet.ico</ApplicationIcon>
+    <ApplicationIcon>Images\icons8_Gas.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
@@ -44,6 +44,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MairwunNxUpdater.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,13 +67,13 @@
     <None Include="Properties\app.manifest" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\icons8_Wet.ico" />
-    <Content Include="Images\icons8_Wet_128.png" />
-    <Content Include="Images\icons8_Wet_16.png" />
-    <Content Include="Images\icons8_Wet_256.png" />
-    <Content Include="Images\icons8_Wet_32.png" />
-    <Content Include="Images\icons8_Wet_48.png" />
-    <Content Include="Images\icons8_Wet_64.png" />
+    <Content Include="Images\icons8_Gas.ico" />
+    <Content Include="Images\icons8_Gas_128.png" />
+    <Content Include="Images\icons8_Gas_16.png" />
+    <Content Include="Images\icons8_Gas_256.png" />
+    <Content Include="Images\icons8_Gas_32.png" />
+    <Content Include="Images\icons8_Gas_48.png" />
+    <Content Include="Images\icons8_Gas_64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
