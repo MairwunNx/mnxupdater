@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C0958E3-E64B-4695-A493-0BA2D8BCFC56}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>MairwunNxUpdater</RootNamespace>
-    <AssemblyName>MairwunNxUpdater</AssemblyName>
+    <ProjectGuid>{25C15F63-F052-4114-8A76-D88BE31B0F4B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>mnxupdater</RootNamespace>
+    <AssemblyName>mnxupdater</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,9 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Images\icons8_Gas.ico</ApplicationIcon>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
-  <PropertyGroup />
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
@@ -46,7 +44,7 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MairwunNxUpdater.Program</StartupObject>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -65,15 +63,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Properties\app.manifest" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Images\icons8_Gas.ico" />
-    <Content Include="Images\icons8_Gas_128.png" />
-    <Content Include="Images\icons8_Gas_16.png" />
-    <Content Include="Images\icons8_Gas_256.png" />
-    <Content Include="Images\icons8_Gas_32.png" />
-    <Content Include="Images\icons8_Gas_48.png" />
-    <Content Include="Images\icons8_Gas_64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
