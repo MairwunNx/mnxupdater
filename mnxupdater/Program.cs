@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
-using System.Runtime.InteropServices;
+using System.Threading;
 
 namespace mnxupdater
 {
@@ -9,6 +9,8 @@ namespace mnxupdater
     {
         public static void Main(string[] args)
         {
+            Thread.Sleep(300);
+
             try
             {
                 if (File.Exists(args[0]))
